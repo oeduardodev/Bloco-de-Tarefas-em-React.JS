@@ -1,0 +1,31 @@
+.Container {
+  max-width:  500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1.9px solid  rgb(255, 0, 64);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color:  rgb(255, 0, 64) #363b42;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #363b42;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color:  rgb(255, 0, 64);
+    border-radius: 15px;
+    border: 10px none #ffffff;
+  }
